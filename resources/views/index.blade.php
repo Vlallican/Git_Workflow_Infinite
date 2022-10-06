@@ -335,17 +335,6 @@
                                             <span style="background-color:white;font-size: 15px">Nombre de véhicules *</span>
                                         </label>
                                     </div>
-                                    <div class="form-group">
-                                        <div class="captcha">
-                                            <span>{!! captcha_img() !!}</span>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="form-group has-float-label">
-                                            <input id="captcha" type="text" class="form-control" placeholder="" name="captcha">
-                                            <span>Entrer le captcha *</span>
-                                        </label>
-                                    </div>
                                     <small id="help" class="form-text text-muted">Les champs suivis d’une * sont obligatoires.</small>
                                     <div class="row" style="">
                                         <div class="col">
