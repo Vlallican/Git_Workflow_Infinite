@@ -97,7 +97,7 @@
                     <a class="nav-link" href="#qui-sommes-nous">Qui sommes-nous ?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#form-contact">Forumulaire de Contact</a>
+                    <a class="nav-link" href="#forme-contact">Forumulaire de Contact</a>
                 </li>
             </ul>
         </div>
@@ -371,22 +371,25 @@
             </p>
             <img src="{{asset('img/adviser.png')}}">
         </div>
+    </div>
+
+    <div style="background: #0c5460 !important;" id="forme-contact">
         <div>
             <img src="{{asset('img/terrier.png')}}" alt="assur">
-        <form action="/ma-page-de-traitement" method="post">
-    <div>
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="user_name">
-    </div>
-    <div>
-        <label for="mail">e-mail&nbsp;:</label>
-        <input type="email" id="mail" name="user_mail">
-    </div>
-    <div>
-        <label for="msg">Message :</label>
-        <textarea id="msg" name="user_message"></textarea>
-    </div>
-</form>
+            <form action="/ma-page-de-traitement" method="post">
+                <div>
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail">e-mail&nbsp;:</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <div>
+                    <label for="msg">Message :</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+            </form>
         </div>
     </div>
 
@@ -456,7 +459,7 @@
                 <a href="#tarifs">Nos tarifs</a>
                 <a href="#engagement">Notre engagement</a>
                 <a href="#qui-sommes-nous">Qui sommes-nous ?</a>
-                <a href="#form-contact">Formulaire Contact</a>
+                <a href="#forme-contact">Formulaire Contact</a>
             </div>
         </div>
     </footer>
