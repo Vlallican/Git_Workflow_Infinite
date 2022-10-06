@@ -372,7 +372,7 @@
             <img src="{{asset('img/adviser.png')}}">
         </div>
         <div>
-            <img src="{{asset('img/adviser.png')}}" alt="assur">
+            <img src="{{asset('img/assur.png')}}" alt="assur">
         <form action="/ma-page-de-traitement" method="post">
     <div>
         <label for="name">Nom :</label>
