@@ -1,0 +1,361 @@
+
+    [class*="row"] {
+        margin-right: 0;
+        margin-left: 0;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width:100%;
+
+    }
+
+    body{
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    li{
+        margin-right: 8%;
+    }
+    a{
+        font-size: 16px;
+        color: black;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    hr{
+        display: none;
+    }
+    h4{
+        font-size: 25px;
+        color: #929292;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    hr{
+        margin: auto;
+        width: 10%;
+        height: 2px;
+        background-color: #929292;
+        border: none; /*on supprime le style par défaut*/"
+    }
+    .nav-item{
+        margin:0;
+    }
+
+    .navbar{
+        background: #0076ba;
+    }
+    .navbar a{
+        color: white;
+        text-align: center;
+        font-size:16px;
+    }
+
+    .navbar-nav{
+        width: 100%;
+    }
+    .navbar-toggler{
+        border-color: white;
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    .align-center{
+        text-align: center;
+        margin:13px;
+    }
+
+    #assurance{
+        background:#56c1ff;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+    }
+    #assurance img{
+        display:none;
+    }
+    #assurance h1{
+        font-size: 20px;
+    }
+    #assurance h2{
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    #assurance button{
+        background: #0076ba;
+        width:40%;
+        color: white;
+        margin-top: 7%;
+        border-color: white;
+        border-radius: 50px;
+    }
+
+    #title-assurance{
+        display: none;
+    }
+    #btn-assurrance{
+        display: none;
+    }
+    #assurance button{
+        height: 100px;
+        width: 300px;
+        font-size: 20px;
+        border-color:transparent;
+    }
+    #assurance .col-6{
+        text-align: center;
+        color: white;
+        padding:0;
+        max-width:90%;
+    }
+    #assurance .col-5{
+        display:none;
+    }
+    #assurance-mobile{
+        display: block;
+    }
+
+    #formules{
+        background:#f8f6f8;
+        padding-top: 10%;
+    }
+    #formules h1{
+        padding: 1%;
+        color: #929292;
+        margin-top: 2%;
+    }
+    #formules h2{
+        color: #929292;
+        margin-top: 30px;
+    }
+    #formules .container-formules{
+        text-align: center;
+    }
+    #formules .row{
+        text-align:center;
+    }
+    #formules .demande{
+        color: #929292;
+        font-size:30px;
+    }
+    .list-picture{
+        height: 100px;
+        width: 100px;
+    }
+    .text-2020{
+        display:none;
+    }
+    .footer-logo{
+        display:none;
+    }
+    #tarifs{
+        background:#84aa72;
+    }
+    #tarifs h1{
+        color: white;
+        margin-top: 10%;
+    }
+    #tarifs h2{
+        color: white;
+        margin-top: 10%;
+    }
+    #tarifs h3{
+        font-size: 18px;
+    }
+    #tarifs h5{
+        font-size: 20px;
+        color: #5e5e5e;
+    }
+    .big-title{
+        font-size:30px;
+    }
+    .big-text{
+        font-size:20px;
+    }
+    #tarifs button{
+        width:60%;
+        color: white;
+        font-size:15px;
+        background: #003E1F;
+        margin-top: 4%;
+        border-color: solid 2px transparent;
+        border-radius: 50px;
+        padding: 10px;
+    }
+    .div-money{
+        margin:0;
+    }
+    #tarifs button:hover{
+        background: transparent ;
+        color:white;
+    }
+    #tarifs .col-2{
+        text-align: right;
+    }
+    .money{
+        width: 50px;
+    }
+    .car-security{
+        width:100%;
+    }
+    #tarifs .container{
+        padding-left:0;
+    }
+    #tarifs .row{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        font-size:15px;
+        text-align:center;
+
+    }
+    #a-partir{
+        text-align: left;
+    }
+
+    #engagement{
+        background:#f3e1b7;
+        padding-top: 5%;
+        padding-bottom: 4%
+    }
+    #engagement h1{
+        color: #a29062;
+        margin-top: 15%;
+    }
+    #engagement h2{
+        padding: 10px;
+        color: #a29062;
+        margin-top: 10%
+    }
+    #engagement img{
+        width: 
+    }
+
+    #devis{
+        background:#f5f3f5;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #devis h1{
+        margin-top: 10%;
+        color: #5e5e5e;
+    }
+    #devis h2{
+        color: #5e5e5e;
+        margin-top: 10%;
+        margin-bottom: 10%
+    }
+    #devis h5{
+        text-align: center;
+        margin-top: 15%
+    }
+    #container-modal{
+        margin-top: 4%;
+        text-align:center;
+    }
+    #button-devis{
+        z-index : 2;
+        width:50%;
+        color: white;
+        border-color: white;
+        font-size:15px;
+        border-radius: 50px;
+        padding: 10px
+    }
+    #plane{
+        padding: 10%;
+        z-index : 4;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .close{
+        position:absolute;
+        right: 10px;
+        top:10px;
+        color: red;
+    }
+    .modal{
+        margin-top: 10%;
+    }
+    .modal-body{
+        margin-top: 2%
+    }
+    .modal-body .row{
+        display:flex;
+        flex-direction: row;
+    }
+    #devis .row{
+        margin-bottom: 5%;
+    }
+    #devis .img-modal{
+        position:relative;
+        margin-top: 4%;
+        width: 30%;
+    }
+    #send-form{
+        margin-top: 20px;
+        width: 100%;
+        color:#5e5e5e;
+        border-color: #5e5e5e;
+        border-radius: 50px;
+        padding: 10px;
+    }
+    #send-form:hover{
+        background: #5e5e5e;
+        color: white;
+    }
+    #devis .modal{
+        right: 2%;
+    }
+
+    #qui-sommes-nous{
+        background:#c2a895;
+    }
+    #qui-sommes-nous h1{
+        color: #5e5e5e;
+        font-size: 29px;
+    }
+    #qui-sommes-nous h2{
+        color: #5e5e5e;
+        margin-top: 10%;
+    }
+    #qui-sommes-nous img{
+        width: 100%;
+    }
+
+    footer .row{
+        padding-top: 20px;
+        display:flex;
+        flex-direction:row;
+    }
+    .footer-logo{
+        width:200px;
+    }
+    .nav-footer{
+        display:flex;
+        flex-wrap: wrap;
+        width:100%;
+        margin:0 20px;
+    }
+    footer{
+        display:flex;
+        justify-content:center;
+    }
+    .row .col-12{
+        display:flex;
+        justify-content: center;
+    }
+    footer .row {
+    padding-top:10px;
+    padding-bottom:10px;
+    }

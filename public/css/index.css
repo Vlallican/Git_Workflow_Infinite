@@ -1,0 +1,370 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+[class*="row"] {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item{
+    margin-right:20px;
+    font-size:16px;
+}
+a{
+    color: black;
+}
+.nav-footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px 10px;
+}
+a:hover{
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+}
+hr{
+    margin: auto;
+    width: 10%;
+    height: 2px;
+    background-color: #929292;
+    border: none; /*on supprime le style par défaut*/"
+}
+h4{
+    color: #929292;
+    margin-top: 10%;
+}
+.big-title{
+    font-size:45px;
+    font-weight:bold;
+}
+.big-text{
+    font-size:30px;
+
+}
+.navbar-toggler{
+    color:white;
+    margin-right:35px;
+}
+
+hr{
+    margin: auto;
+    width: 10%;
+    height: 2px;
+    background-color: #929292;
+    border: none; /*on supprime le style par défaut*/
+}
+
+.navbar{
+    background: #0076ba;
+    padding:0;
+    display:flex;
+    justify-content:space-between;
+}
+.navbar a{
+    text-align: center;
+    color: white;
+}
+.navbar-brand {
+    margin-left:35px;
+    display:flex;
+    align-items:center;
+}
+.text-footer{
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.navbar-nav{
+    justify-content: center;
+    margin-right:20px;
+}
+
+.nav-link:hover{
+    font-weight:bold;
+}
+.list-picture{
+    width: 150px;
+    height: 150px
+}
+.little-text{
+    font-size:30px;
+}
+.align-center{
+    text-align: center;
+    margin:0 90px;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-flex{
+    width:100%!important;
+    margin:0;
+    display:flex;
+    justify-content:space-between;
+}
+#assurance{
+    margin-top : 65px;
+    background:#56c1ff;
+    padding:100px 0;
+}
+#assurance button{
+    background: #0076ba;
+    width:280px;
+    padding:18px;
+    font-size:18px;
+    color: white;
+    margin-top:40px;
+    border:solid 2px transparent;
+    border-radius: 50px;
+    transition:0.2s;
+}
+#assurance button:hover{
+    background: transparent ;
+    border:solid 2px white;
+    color: white;
+}
+#assurance img{
+    width: 450px;
+
+}
+#assurance h2{
+    margin-top: 4%
+}
+#assurance .col-6{
+    text-align: right;
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    flex-direction:column;
+    padding-left:40px;
+}
+#assurance .col-5{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:70px;
+}
+
+#assurance-mobile{
+    display: none;
+}
+
+#formules{
+    color:#929292;
+    background:#f8f6f8;
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+#formules h1{
+    color: #929292
+}
+#formules h2{
+    color: #929292;
+    margin-top: 2%;
+}
+#formules .container-formules{
+    text-align: center;
+}
+#formules .row{
+    text-align:center;
+    margin-top: 8%;
+}
+.row{
+    justify-content:center;
+    margin:0 50px;
+}
+#formules .demande{
+    margin-top: 6%;
+    color: #929292;
+}
+.has-float-label>span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+#tarifs{
+    color:white;
+    background:#84aa72;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+#tarifs h2{
+    color: white;
+    margin-top: 2%
+}
+#tarifs h1,h2,h3{
+    color: white;
+}
+#tarifs .col-2{
+    text-align: right;
+}
+#tarifs button{
+    width:350px;
+    color: white;
+    background: #003E1F;
+    margin-top: 10px;
+    font-size:20px;
+    border:solid 2px transparent;
+    border-radius: 50px;
+    padding: 13px;
+    transition:0.2s;
+}
+#tarifs button:hover{
+    border:solid 2px white;
+    background: transparent ;
+    color: #fffff2;
+}
+#tarifs h5{
+    color: #5e5e5e;
+    margin-top: 20px;
+}
+.money{
+    height: 80%;
+    width: 40%;
+}
+.car-security{
+    margin-top: 10px;
+    width: 550px;
+}
+#tarifs .row{
+    margin-right: -4%;
+}
+#a-partir{
+    margin-left: -1%;
+    text-align: left
+}
+.text-left{
+    text-align: left;
+}
+#engagement{
+    background:#f3e1b7;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color:#5e5e5e;
+}
+#engagement h1{
+    color: #a29062;
+}
+#engagement h2{
+    color: #a29062;
+    margin-top: 2%
+
+}
+#engagement img{
+    margin-top: 4%;
+    height: 50%;
+    width: 50%
+}
+.div-money{
+    display:flex;
+    margin-right: 230px;
+    margin-left:-100px;
+}
+#devis{
+    background:#f5f3f5;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #5e5e5e;
+}
+
+#container-modal{
+    margin-top: 4%;
+    text-align:center;
+}
+#button-devis{
+    background: #5e5e5e;
+    color: white;
+    z-index : 2;
+    font-size:20px;
+    width:300px;
+    border-color: white;
+    border-radius: 50px;
+    padding: 13px;
+    border:solid 2px transparent;
+
+}
+#button-devis:hover{
+    background:transparent;
+    border:solid 2px #5e5e5e;
+    color: #5e5e5e;
+    
+}
+#devis h5{
+    text-align: center;
+    margin-top: 4%
+}
+.close{
+    position:absolute;
+    right: 10px;
+    top:10px
+}
+.modal-body{
+    margin-top: 2%
+}
+#devis .row{
+    margin-bottom: 5%;
+}
+#devis .img-modal{
+    position:relative;
+    margin-top: 4%;
+    height: 100%;
+    width: 70%;
+}
+#send-form{
+    margin-top: 25%;
+    width: 100%;
+    color:#5e5e5e;
+    border-color: #5e5e5e;
+    border-radius: 50px;
+    padding: 10px
+}
+
+#send-form:hover{
+    background: #5e5e5e;
+    color: white;
+}
+#plane{
+    z-index : 4;
+    margin-top: 2%;
+    height: 35%;
+    width: 35%
+}
+
+#qui-sommes-nous{
+    background:#c2a895;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #5e5e5e;
+
+}
+
+#qui-sommes-nous img{
+    height: 25%;
+    width: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.footer-logo{
+    width:200px;
+}
+footer p {
+    margin:0;
+    padding:0;
+}
+.nav-footer{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+
+  
