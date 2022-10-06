@@ -96,6 +96,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#qui-sommes-nous">Qui sommes-nous ?</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#form-contact">Forumulaire de Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -436,6 +439,7 @@
                 <a href="#tarifs">Nos tarifs</a>
                 <a href="#engagement">Notre engagement</a>
                 <a href="#qui-sommes-nous">Qui sommes-nous ?</a>
+                <a href="#form-contact">Formulaire Contact</a>
             </div>
         </div>
     </footer>
