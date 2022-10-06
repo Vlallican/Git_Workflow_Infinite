@@ -374,8 +374,8 @@
     </div>
 
     <div style="background: #0c5460 !important;" id="forme-contact">
-        <div>
-            <img src="{{asset('img/terrier.png')}}" alt="assur">
+        <div class="align-center" style="text-align: center;">
+            <img src="{{asset('img/assur.png')}}" alt="assur">
             <form action="/ma-page-de-traitement" method="post">
                 <div>
                     <label for="name">Nom :</label>
